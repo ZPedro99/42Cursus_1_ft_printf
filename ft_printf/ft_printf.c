@@ -60,13 +60,3 @@ int	ft_printf(const char *format, ...)
 	va_end(args);
 	return (byte_count);
 }
-
-int	main()
-
-{
-	//unsigned int	b;
-
-	//b = -1;
-	printf("boas malta");
-	ft_printf("boas malta");
-}
